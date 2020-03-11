@@ -1,0 +1,85 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      2674,         75]
+NotebookOptionsPosition[      2071,         57]
+NotebookOutlinePosition[      2413,         72]
+CellTagsIndexPosition[      2370,         69]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell["\<\
+Datasets was taken from additional CD-ROM for \[OpenCurlyDoubleQuote]Handbook \
+of software reliability engineering\[CloseCurlyDoubleQuote] chapter 7 \
+\[OpenCurlyDoubleQuote]Software Reliability Measurement Experience\
+\[CloseCurlyDoubleQuote] Allen P. Nikora and Michael R. Lyu. J3, J5
+\
+\>", "Text",
+ CellChangeTimes->{{3.792657974039225*^9, 3.792657992418805*^9}, {
+  3.7926580510913057`*^9, 3.792658158471884*^9}, {3.792658372663374*^9, 
+  3.792658374324252*^9}, {3.792658709226757*^9, 3.792658714063025*^9}, {
+  3.792659068826847*^9, 3.7926590783688707`*^9}, {3.792660725257036*^9, 
+  3.79266073452831*^9}},ExpressionUUID->"e184eb1e-804e-448c-9f9e-\
+f7914d64a64a"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{"j3", " ", "=", " ", 
+  RowBox[{"Import", "[", "\"\<J3.xlsx\>\"", "]"}]}], "\[IndentingNewLine]", 
+ RowBox[{"j5", " ", "=", " ", 
+  RowBox[{"Import", "[", "\"\<J5.xlsx\>\"", "]"}]}]}], "Input",
+ CellChangeTimes->{{3.792660850384103*^9, 3.792660953058838*^9}, {
+  3.792660984072587*^9, 
+  3.7926609883309107`*^9}},ExpressionUUID->"d8ac8482-6553-4fd9-be36-\
+809f1265e3c4"],
+
+Cell[BoxData[
+ RowBox[{"import", "[", "\<\"J3.xlsx\"\>", "]"}]], "Output",
+ CellChangeTimes->{3.7926609611704397`*^9},
+ CellLabel->"Out[60]=",ExpressionUUID->"320d79b3-5625-410f-b11d-04efa3bf4a96"],
+
+Cell[BoxData[
+ RowBox[{"import", "[", "\<\"J5.xlsx\"\>", "]"}]], "Output",
+ CellChangeTimes->{3.792660961172978*^9},
+ CellLabel->"Out[61]=",ExpressionUUID->"2e714b16-1097-431b-8cfc-e6676bfdf5a1"]
+}, Open  ]]
+},
+WindowSize->{956, 1252},
+WindowMargins->{{-295, Automatic}, {1157, Automatic}},
+FrontEndVersion->"12.0 for Mac OS X x86 (64-bit) (April 8, 2019)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 680, 12, 81, "Text",ExpressionUUID->"e184eb1e-804e-448c-9f9e-f7914d64a64a"],
+Cell[CellGroupData[{
+Cell[1263, 36, 394, 8, 52, "Input",ExpressionUUID->"d8ac8482-6553-4fd9-be36-809f1265e3c4"],
+Cell[1660, 46, 197, 3, 34, "Output",ExpressionUUID->"320d79b3-5625-410f-b11d-04efa3bf4a96"],
+Cell[1860, 51, 195, 3, 34, "Output",ExpressionUUID->"2e714b16-1097-431b-8cfc-e6676bfdf5a1"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
